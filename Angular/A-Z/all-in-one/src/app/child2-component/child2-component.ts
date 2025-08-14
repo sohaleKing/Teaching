@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core'
 
 @Component({
-  selector: 'app-child2-component',
-  imports: [],
-  templateUrl: './child2-component.html',
-  styleUrl: './child2-component.css'
+    selector: 'app-child2-component',
+    imports: [],
+    templateUrl: './child2-component.html',
+    styleUrl: './child2-component.css',
 })
 export class Child2Component {
-
+    @Input() child2: string = ''
 }

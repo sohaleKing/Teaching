@@ -1,10 +1,11 @@
 import { Component } from '@angular/core'
 import { RouterOutlet } from '@angular/router'
 import { ServiceConsumerComponent } from './service-consumer-component/service-consumer-component'
+import { ParentComponent } from './parent-component/parent-component'
 
 @Component({
     selector: 'app-root',
-    imports: [RouterOutlet, ServiceConsumerComponent],
+    imports: [RouterOutlet, ServiceConsumerComponent, ParentComponent],
     templateUrl: './app.html',
     styleUrl: './app.css',
 })

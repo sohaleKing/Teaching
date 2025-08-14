@@ -1,1 +1,4 @@
 <p>parent-component works!</p>
+<app-child1-component (childClicked)="count = count + 1"></app-child1-component>
+<p>counter = {{count}}</p>
+<app-child2-component [child2]="parentData"></app-child2-component>
