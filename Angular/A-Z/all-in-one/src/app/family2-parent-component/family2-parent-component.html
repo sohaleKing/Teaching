@@ -1,0 +1,4 @@
+<p>family2-parent-component works!</p>
+<app-family2-child-component [child2ReceivedMsg]="family2ParentMsg"
+    (child2Event)="family2ChildMsg = 'Hello back to papa'"></app-family2-child-component>
+<p>message from famil2 child says: {{family2ChildMsg}}</p>
