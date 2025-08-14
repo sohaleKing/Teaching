@@ -8,6 +8,6 @@ import { Family2ChildComponent } from '../family2-child-component/family2-child-
     styleUrl: './family2-parent-component.css',
 })
 export class Family2ParentComponent {
-    family2ParentMsg: string = 'papa2 says hi'
-    family2ChildMsg: string = ''
+    msgToChild: string = 'papa2 says hi'
+    msgFromChild: string = ''
 }
