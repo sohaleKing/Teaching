@@ -2,3 +2,8 @@
 <app-student [name]="'Ali'"></app-student>
 <app-student [name]="'Emma'"></app-student>
 <app-student [name]="'Robert'"></app-student>
+
+<button (click)="listStudents()">click to see the students</button>
+<ul>
+    <li *ngFor="let name of names">{{name}}</li>
+</ul>
