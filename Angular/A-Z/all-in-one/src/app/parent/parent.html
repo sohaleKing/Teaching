@@ -1,3 +1,9 @@
 <p>parent works! {{kid2Msg}}</p>
 <app-child1 [child_rcvData]="parentMsg"></app-child1>
 <app-child2 (msgToParent)="receiveMsg($event)"></app-child2>
+<app-child3></app-child3>
+<button (click)="callingChild3()">the button in parent where calling a mothod in child</button>
+<p>or you just want to user @ViewChild as ref to access a native dom</p>
+<label>input text with a ref = </label>
+<input #myInput type="text"><br>
+<button (click)="focus()">would be focus on input by using the access a native dom</button>
