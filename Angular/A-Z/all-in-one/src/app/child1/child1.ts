@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core'
     styleUrl: './child1.css',
 })
 export class Child1 {
-    @Input() childVar: string = ''
+    @Input() child_rcvData: string = ''
 }

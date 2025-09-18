@@ -8,5 +8,5 @@ import { Child1 } from '../child1/child1'
     styleUrl: './parent.css',
 })
 export class Parent {
-    parentVar: string = 'Hi from Parent'
+    parentMsg: string = 'Hi from Dady!'
 }
