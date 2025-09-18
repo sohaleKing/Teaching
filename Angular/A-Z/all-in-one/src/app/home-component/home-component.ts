@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core'
 import { ApiService } from '../api-service'
 import { JsonPipe } from '@angular/common'
+import { Parent } from '../parent/parent'
 
 @Component({
     selector: 'app-home-component',
-    imports: [JsonPipe],
+    imports: [JsonPipe, Parent],
     templateUrl: './home-component.html',
     styleUrl: './home-component.css',
 })
