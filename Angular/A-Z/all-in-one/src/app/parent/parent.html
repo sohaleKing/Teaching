@@ -1,2 +1,3 @@
-<p>parent works!</p>
+<p>parent works! {{kid2Msg}}</p>
 <app-child1 [child_rcvData]="parentMsg"></app-child1>
+<app-child2 (msgToParent)="receiveMsg($event)"></app-child2>
