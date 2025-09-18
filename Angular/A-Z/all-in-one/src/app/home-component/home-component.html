@@ -1,3 +1,12 @@
 <p>Home Component works </p>
 <p>{{data | json}}</p>
 <hr />
+<ul>
+    <li><a routerLink="/parent">parent</a></li>
+    <li><button (click)="goSchool()">school</button></li>
+    <li><a [routerLink]="['/user', '123']">user1</a></li>
+    <li><a [routerLink]="['/user', '345']">user1</a></li>
+
+
+
+</ul>
